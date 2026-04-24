@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://be7bqbcfsgedf"]
+
+[ext_resource type="Script" uid="uid://c0htsiv0f4cwr" path="res://Coding2.gd" id="1_otmg4"]
+[ext_resource type="Texture2D" uid="uid://cxgw0kuvy8ml4" path="res://icon.svg" id="2_gwece"]
+
+[node name="Coding2" type="Node2D" unique_id=1346648611]
+script = ExtResource("1_otmg4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2056774562]
+position = Vector2(128, 108)
+texture = ExtResource("2_gwece")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1887598011]
+modulate = Color(1, 0.59607846, 1, 1)
+texture = ExtResource("2_gwece")
